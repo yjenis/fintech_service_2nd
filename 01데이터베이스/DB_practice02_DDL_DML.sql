@@ -143,3 +143,17 @@ DELETE FROM emp_test WHERE emp_no='1009';
 # 오토커밋 옵션 활성화 확인
 SELECT @@autocommit; # 결과가 1이면 오토커밋 활성화 0이면 비활성화
 SET autocommit = 0; # 오토커밋 비활성화
+
+# primary key는 복사가 안됨.
+CREATE table emp_tran1 as select * from emp_test;
+SELECT * from emp_tran1;
+DESC emp_test;
+DESC emp_tran1; 
+ALTER TABLE emp_tran1 add constraint primary key(emp_no);
+SELECT * from emp_test;
+insert into emp_test values(1011,'test1', '2024-04-05', 5000);
+insert into emp_test values(1012,'test2', '2024-04-05', 5000);
+insert into emp_test values(1013,'test3', '2024-04-05', 5000);
+rollback;
+commit;
+
