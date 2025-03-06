@@ -1,0 +1,201 @@
+/* 1 */
+#main-title {
+    text-align: center;
+}
+
+/* 2 */
+.navbar a {
+    color: blue;
+}
+
+/* 3 */
+.container h2 {
+    font-size: 22px;
+}
+
+/* 4 */
+.highlight {
+    color: red;
+}
+
+/* 5 */
+header li {
+    font-size: 18px;
+}
+
+/* 6 */
+.service-list li:first-child {
+    text-align: center;
+}
+
+/* 7 */
+.review h3 {
+    color: green;
+}
+
+/* 8 */
+aside > h2 {
+    text-align: right;
+}
+
+/* 9 */
+.notice-list li:last-child {
+    color: orange;
+}
+
+/* 10 */
+.notice-list li:nth-child(2) {
+    font-size: 20px;
+}
+
+/* 11 */
+.review:first-of-type p{
+    color: purple;
+}
+
+/* 12 */
+footer > a {
+    color: green;
+}
+
+/* 13 */
+a[target="_black"] {
+    text-align: center;
+}
+
+/* 14 */
+button {
+    font-size: 16px;
+}
+
+/* 15 */
+button:hover {
+    color: red;
+}
+
+/* 16 */
+.intro + article {
+    font-size: 24px;
+}
+
+/* 17 */
+section h2 {
+    text-align: center;
+}
+
+/* 18 */
+.review:last-child {
+    color: pink;
+}
+
+/* 19 */
+.service-list li:nth-child(3) {
+    color: red;
+}
+
+/* 20 */
+nav li:last-child {
+    text-align: right;
+}
+
+/* 21 */
+article {
+    font-size: 20px;
+}
+
+/* 22 */
+aside li:first-child {
+    color: blue;
+}
+
+/* 23 */
+header > h1 {
+    color: purple;
+}
+
+/* 24 */
+.services > ul {
+    text-align: left;
+}
+
+/* 25 */
+footer > p {
+    font-size: 12px;
+}
+
+/* 26 */
+h3 {
+    color: blue;
+}
+
+/* 27 */
+.notice-list li:nth-child(2n+1) {
+    color: green;
+}
+
+/* 28 */
+.notice-list li:nth-child(2n) {
+    color: orange;
+}
+
+
+/* 29 */
+section p {
+    font-size: 16px;
+}
+
+/* 30 */
+article p:first-of-type {
+    color: red;
+}
+
+/* 31 */
+nav a:hover {
+    color: green;
+}
+
+
+/* 32 */
+button:hover {
+    font-size: 18px;
+}
+
+/* 33 */
+.review:first-of-type h3 {
+    font-size: 24px;
+}
+
+/* 34 */
+article:first-child {
+    color: purple;
+}
+
+/* 35 */
+.service-list li:last-child {
+    font-size: 18px;
+}
+
+/* 36 */
+.intro > p {
+    color: green;
+}
+
+/* 37 */
+.services > h2 {
+    font-size: 20px;
+}
+
+/* 38 */
+footer a:hover {
+    color: red;
+}
+
+/* 39 */
+.reviews div:last-child {
+    font-size: 22px;
+}
+
+/* 40 */
+.navbar li:first-child {
+    color: orange;
+}

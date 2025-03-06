@@ -38,9 +38,9 @@ p + ul {
 }
  
 /* 일반 형제 셀렉터  (셀렉터A ~ 셀렉터B) */
-/* span ~ ul {
+span ~ ul {
     color: green;
-} */
+}
 
 
 /* 가상 클래스 셀렉터 Pseudo-class selector */

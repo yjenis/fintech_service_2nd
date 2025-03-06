@@ -1,0 +1,207 @@
+
+/* 1번 */
+#main-title {
+  text-align: center;
+}
+
+/* 2번 */
+.navbar a {
+  color: blue;
+}
+
+/* 3번 */
+.container h2 {
+  font-size: 22px;
+}
+
+/* 4번 */
+.highlight {
+  color: red;
+}
+
+/* 5번 */
+header li {
+  font-size: 18px;
+}
+
+/* 6번 */
+.service-list li:first-child {
+  text-align: center;
+}
+
+/* 7번 */
+.review h3 {
+  color: green;
+}
+
+/* 8번 */
+aside h2 {
+  text-align: right;
+}
+
+/* 9번 */
+.notice-list li:last-child {
+  color: orange;
+}
+
+/* 10번 */
+.notice-list li:nth-child(2) {
+  font-size: 20px;
+}
+
+/* 11번 */
+
+.review:first-of-type p{
+  color: purple;
+}
+
+/* 12번 */
+footer a {
+  color: green;
+}
+
+/* 13번 인라인 요소라 정렬 안됨*/
+a[target="_blank"] {
+  text-align: center;
+}
+
+/* 14번 */
+button {
+  font-size: 16px;
+}
+
+/* 15번 */
+button:hover {
+  color: gray;
+}
+
+/* 16번 */
+.intro + article {
+  font-size: 24px;
+}
+
+/* 17번 */
+section h2 {
+  text-align: center;
+}
+
+/* 18번 */
+.review:last-child {
+  color: pink;
+}
+
+/* 19번 */
+.service-list li:nth-child(3) {
+  color: red;
+}
+
+/* 20번 */
+nav li:last-child {
+  text-align: right;
+}
+
+/* 21번 */
+article {
+  font-size: 20px;
+}
+
+/* 22번 */
+aside li:first-child {
+  color: blue;
+}
+
+/* 23번 */
+header > h1 {
+  color: purple;
+}
+
+
+/* 24번 */
+.services ul {
+  text-align: left;
+}
+
+/* 25번 */
+footer p {
+  font-size: 12px;
+}
+
+/* 26번 */
+h3 {
+  color: blue;
+}
+
+/* 27번 */
+.notice-list li:nth-child(2n+1) {
+  color: green;
+}
+
+/* 28번 */
+.notice-list li:nth-child(2n) {
+  color: orange;
+}
+
+/* 29번 */
+section p {
+  font-size: 16px;
+}
+
+/* 30번 */
+article p:first-of-type{
+  color: red;
+}
+
+/* 31번 */
+nav a:hover {
+  color: green;
+}
+
+/* 32번 */
+button:hover {
+  font-size: 18px;
+}
+
+/* 33번 */
+/* 첫번째 .review 안의 h3 */
+.review:first-of-type h3{
+  font-size: 24px;
+}
+
+/* 34번 */
+article:first-child {
+  color: purple;
+}
+
+/* article:first-of-type {
+  color: purple;
+} */
+
+/* 35번 */
+.service-list li:last-child {
+  font-size: 18px;
+}
+
+/* 36번 */
+.intro p {
+  color: green;
+}
+
+/* 37번 */
+.services h2 {
+  font-size: 20px;
+}
+
+/* 38번 */
+footer a:hover {
+  color: red;
+}
+
+/* 39번 */
+.reviews div:last-child {
+  font-size: 22px;
+}
+
+/* 40번 */
+.navbar li:first-child {
+  color: orange;
+}

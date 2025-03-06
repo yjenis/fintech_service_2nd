@@ -53,6 +53,10 @@ p { color: blue;}
     color: brown;
 }
 
+.strong.center.graycolor {
+    font-size: 10px;
+}
+
 /* 어트리뷰트(속성) src, href 셀렉터  attribute selector*/
 /* 태그 안의 속성을 찾음 */
 /* 태그명[속성="값"] : 지정된 속성(어트리뷰트)를 가지면서 값이 같은 요소를 선택 */
@@ -89,7 +93,7 @@ a[href$=".html"] {
     text-align: center;
     color: gray;
 }
-
+origin-
 
 /* 태그명[속성*="값"] 지정된 속성 값을 포함하는 요소를 선택 test  */
 p[class*="test"] {
