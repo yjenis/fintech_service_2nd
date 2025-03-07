@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
 /* 폰트 굵기 바꾸기 */
 /* font-weight */
 /* normal, bold */
@@ -89,15 +92,16 @@ html {
 
 /* 구글 폰트 사용하기 */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
-
-
 div.google_font > p.monoton-regular {
     font-family: "Monoton", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
+div i {
+    color: blue;
+}  
+
 /* 폰트 색상 변경하기 */
 /* 색상명, 16진수, RGB, RGBA */
 
@@ -110,11 +114,11 @@ div.google_font > p.monoton-regular {
 }
 
 .font_color li:nth-child(3) {
-    color: rgb(0,0,255);
+    color: rgb(66, 202, 31);
 }
 
 .font_color li:nth-child(4) {
-    color: rgba(120, 220, 61, 0.749);
+    color: rgba(96, 209, 30, 0.794);
 }
 
 .font_color {
