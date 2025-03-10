@@ -140,15 +140,15 @@
 /* px 단위로 이미지 배치하기 */
 .backimg div:nth-child(9) {
     width: 300px;
-    height: 300px;
+    height: 500px;
     background-image: url(../HTML/img/pattern.png);
     background-repeat: no-repeat;
-    background-position: 50px 100px;
+    background-position: 100px 100px;
 }
 
 .backimg div:nth-child(10) {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background-image: url(../HTML/img/pattern.png);
     background-repeat: no-repeat;
     background-position: 20% 10%;
@@ -276,8 +276,8 @@ div.twoinone {
 
 .green-box {
     position:absolute;
-    /* left: 100px; */
-    /* top: 50%; */
+    left: 100px;
+    top: 50%;
     bottom: 10%;
     right: 10%;
     opacity: 0.3;
@@ -311,7 +311,7 @@ div.twoinone {
     position: absolute;
     top: 100px;
     left: 0px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .zindex .ziright {
@@ -321,7 +321,7 @@ div.twoinone {
     position: absolute;
     bottom: 50px;
     right: 50px;
-    z-index: 1;
+    z-index: 3;
 }
 
 /* opacity 투명도 조절하기 */
@@ -343,7 +343,7 @@ div.twoinone {
     top: 50px;
     left: 50px;
     z-index: 4;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .opacity .opmiddle {
@@ -390,8 +390,8 @@ div.twoinone {
     line-height: 200px;
     text-align: center;
     color: white;
-    text-shadow: 10px 10px 0px red;
-    box-shadow: 30px -30px 30px black;
+    text-shadow: 10px 10px 10px red;
+    box-shadow: 30px 30px 30px black;
 }
 
 .shadow .shmiddle {
@@ -463,7 +463,7 @@ div.twoinone {
     right: 0px;
     z-index: 1;
     /* opacity: 0.1; */
-    border-radius: 100%;
+    border-radius: 50%;
     background-image: url(../HTML/img/rose.jpg);
     background-size: contain;
 
@@ -485,7 +485,7 @@ div.twoinone {
 }
 
 .gradient .box.grmiddle {
-    background: linear-gradient(-45deg, blue, red);
+    background: linear-gradient(45deg, blue, red);
 }
 
 .gradient .box.grright {
@@ -514,7 +514,7 @@ div.twoinone {
 
 /* 100%에 가까울 수록 흑백으로 전환 */
 .filter div:nth-child(4) {
-    filter: grayscale(90%)
+    filter: grayscale(50%)
 }
 
 /* 0원본 색상 0-360deg까지 변경 가능 */

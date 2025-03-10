@@ -10,11 +10,11 @@
     /* float: left; */
     display: flex;
 
-    /* 요소의 방향 flex-direction row가 기본본*/
+    /* 요소의 방향 flex-direction row가 기본*/
     /* flex-direction: row; */
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     /* flex-direction: column; */
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
 
     /* 제한된 영역을 넘었을 때 줄바꿈 wrap */
     flex-wrap: wrap;

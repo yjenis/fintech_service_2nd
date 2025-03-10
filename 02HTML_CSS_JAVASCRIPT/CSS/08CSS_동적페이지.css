@@ -29,7 +29,7 @@ section:nth-of-type(2) article {
 
 /* 요소를 이동 */
 section:nth-of-type(3) article {
-    transform: translate(50px);
+    transform: translate(-50px);
 }
 
 /* 요소를 회전 */
