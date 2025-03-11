@@ -18,7 +18,7 @@ a {
     height: 300px;
     margin: 50px;
     background-color: aqua;
-    transition: 0.5s;
+    transition: 1s;
     text-align: center;
     line-height: 300px;
 }

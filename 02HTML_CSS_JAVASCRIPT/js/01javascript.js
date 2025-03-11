@@ -68,7 +68,7 @@ btnLeft.addEventListener("click", e =>{
     e.preventDefault();
     num2--;
     console.log(`btnLeft를 클릭했을 때 num2에 있는 값: ${num2}`);  
-    console.log(num2);
+    // console.log(num2);
     // console.log("hello");
     box2.style.transform = `rotate(${num2 * deg}deg)`;
 });

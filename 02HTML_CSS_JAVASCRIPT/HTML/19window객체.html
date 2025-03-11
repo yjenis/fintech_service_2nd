@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>윈도우 객체체</title>
+    <title>윈도우 객체</title>
     <style>
         body {
             width: 5000px;
@@ -21,7 +21,7 @@
      <!-- <button onclick="printInfo()">window 객체 속성</button> -->
 
      <div>
-    <button onclick="sTo()">scrollTo(100, 200)</button>
+    <!-- <button onclick="sTo()">scrollTo(100, 200)</button> -->
     <button onclick="sBy()"">scrollBy(100,200)</button>
     </div>
 
@@ -30,14 +30,14 @@
         //     window.open('popup.html', '팝업', 'width=200, height=100');
         // }
 
-        // function printInfo(){
-        //     console.log(`웹 브라우저의 너비: ${window.innerWidth}`);
-        //     console.log(`웹 브라우저의 높이: ${window.innerHeight}`);
-        //     console.log(`웹 브라우저의 창의 너비: ${window.outerWidth}`);
-        //     console.log(`웹 브라우저 창의 높이: ${window.outerHeight}`);
-        //     console.log(`웹 브라우저 창의 스크롤 가로 위치: ${window.scrollX}`);
-        //     console.log(`웹 브라우저 창의 스크롤 세로 위치: ${window.scrollY}`);
-        // };
+        function printInfo(){
+            console.log(`웹 브라우저의 너비: ${window.innerWidth}`);
+            console.log(`웹 브라우저의 높이: ${window.innerHeight}`);
+            console.log(`웹 브라우저의 창의 너비: ${window.outerWidth}`);
+            console.log(`웹 브라우저 창의 높이: ${window.outerHeight}`);
+            console.log(`웹 브라우저 창의 스크롤 가로 위치: ${window.scrollX}`);
+            console.log(`웹 브라우저 창의 스크롤 세로 위치: ${window.scrollY}`);
+        };
         function sTo() {
             window.scrollTo(100, 200);
         }

@@ -29,7 +29,7 @@
 .grid-container {
     display: grid;
     border: 1px solid black;
-    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 100px 100px 100px 100px; */
     /* grid-template-rows: 100px 100px 100px; */
 
     /* repeat(개수, 크기) 크기가 같은 박스 여러개 생성 */
@@ -37,8 +37,8 @@
     grid-template-rows: repeat(3, 100px);
 
     /* minmax로 최소 최대 크기 지정하기 */
-    /* grid-template-columns: minmax(10px, 100px) 100px;
-    grid-template-rows: minmax(10px, 50px) 50px; */
+    /* grid-template-columns: minmax(10px, 100px) 100px; */
+    /* grid-template-rows: minmax(10px, 50px) 50px; */
 
     /* 그리드 갭 주기 */
     row-gap: 10px;
@@ -72,7 +72,7 @@
 
     /* 가로 세로 정렬을 동시에 place-items, place-self */
     /* place-items: 세로정렬, 가로정렬 */
-    /* place-items: end start; */
+    place-items: center center;
 
 }
 
@@ -129,9 +129,9 @@
     border: 1px solid black;
 
     grid-template-areas: 
-        "header header sidebar"
-        "content content content"
-        "footer footer footer"
+        "header header  header header"
+        "sidebar content content content "
+        "footer footer footer footer"
     ;
     row-gap: 10px;
     column-gap: 10px;
