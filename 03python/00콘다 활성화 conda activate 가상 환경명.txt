@@ -1,0 +1,12 @@
+콘다 활성화: conda activate 가상 환경명
+콘다 비활성화: conda deactivate
+가상환경 만들기: conda create -n 가상환경명 python=버전
+패키지 설치: conda install 패키지명
+설치된 패키지 목록 보기: conda list
+가상환경 목록 보기: conda info --envs
+가상환경 삭제하기:conda remove -n 가상환경명 --all
+
+jupyter notebook 작업 폴더 설정
+- jupyter notebook --generate-config
+- jupyter_notebook_config.py 파일 열기
+- c.NotebookApp.notebook_dir 부분을 찾아 경로 입력 후 저장
