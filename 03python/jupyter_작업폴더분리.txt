@@ -1,0 +1,11 @@
+import os
+from jupyter_core.paths import jupyter_config_dir
+
+# 현재 활성화된 Conda 환경 확인
+conda_env = os.environ.get("CONDA_DEFAULT_ENV", "")
+
+# 가상환경별 Working Directory 설정
+if conda_env == "fintech":
+    c.NotebookApp.notebook_dir = "C:/fintech"
+else:
+    c.NotebookApp.notebook_dir = "D:/bigdata"
