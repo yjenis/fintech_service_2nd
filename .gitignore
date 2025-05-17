@@ -4,6 +4,7 @@ dist/
 04data_scraping/dist/
 04data_scraping/build/
 build/
+model/
 *.json
 *.csv
 *.exe
