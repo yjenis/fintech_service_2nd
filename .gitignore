@@ -5,6 +5,12 @@ dist/
 04data_scraping/build/
 build/
 model/
+catanddog/
 *.json
 *.csv
 *.exe
+*.keras
+*.joblib
+*.jpg
+*.png
+*.env*
